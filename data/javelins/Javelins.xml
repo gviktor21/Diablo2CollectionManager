@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<javelins>
+<normal>
+
+</normal>
+<exceptional>
+
+</exceptional>
+<elite>
+	<item name="Demon's Arch" type="Balrog Spear" imgsrc="demonsarch.gif" />
+	<item name="Wraith Flight" type="Ghost Glaive" imgsrc="wraithflight.gif" />
+	<item name="Gargoyle's Bite" type="Winged Harpoon" imgsrc="gargoylesbite.gif" />
+
+</elite>
+</javelins>

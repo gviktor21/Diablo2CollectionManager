@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<daggers>
+<normal>
+
+	<item name="Gull" type="Dagger" imgsrc="dagger.gif" />
+	<item name="The Diggler" type="Dirk" imgsrc="thediggler.gif" />
+	<item name="The Jade Tan Do" type="Kris" imgsrc="thejadetando.gif" />
+	<item name="Spectral Shard" type="Blade" imgsrc="iricesshard.gif" />
+</normal>
+<exceptional>
+	<item name="Spineripper" type="Poignard" imgsrc="dagger (1).gif" />
+	<item name="Heart Carver" type="Rondel" imgsrc="thediggler (1).gif" />
+	<item name="Blackbog's Sharp" type="Cinquedeas" imgsrc="thejadetando (1).gif" />
+	<item name="Stormspike" type="Stiletto" imgsrc="stormspike.gif" />
+
+</exceptional>
+<elite>
+	<item name="Wizardspike" type="Bone Knife" imgsrc="dagger (2).gif" />
+	<item name="Fleshripper" type="Fanged Knife" imgsrc="fleshripper.gif" />
+	<item name="Ghostflame" type="Legend Spike" imgsrc="ghostflame.gif" />
+
+</elite>
+</daggers>

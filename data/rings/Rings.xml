@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rings>
+<undefined>
+
+	<item name="Nagelring" type="ring" imgsrc="ring1.gif" />
+	<item name="Manald Heal" type="ring" imgsrc="ring2.gif" />
+	<item name="Stone of Jordan" type="ring" imgsrc="ring3.gif" />
+	<item name="Dwarf Star" type="ring" imgsrc="ring2 (1).gif" />
+	<item name="Raven Frost" type="ring" imgsrc="ring3 (1).gif" />
+	<item name="Bul-Kathos' Wedding Band" type="ring" imgsrc="ring1 (1).gif" />
+	<item name="Carrion Wind" type="ring" imgsrc="ring3 (2).gif" />
+	<item name="Nature's Peace" type="ring" imgsrc="ring2 (2).gif" />
+	<item name="Wisp Projector" type="ring" imgsrc="ring1 (2).gif" />
+
+</undefined>
+</rings>

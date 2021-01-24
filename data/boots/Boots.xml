@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<boots>
+<normal>
+<item name="Hotspur" type="Boots" imgsrc="hotspur.gif"></item>
+<item name="Gorefoot" type="Heavy Boots" imgsrc="gorefoot.gif"></item>
+<item name="Treads of Cthon" type="Chain Boots" imgsrc="treadsofcthon.gif"></item>
+<item name="Goblin Toe" type="Light Plated Boots" imgsrc="goblintoe.gif"></item>
+<item name="Tearhaunch" type="Greaves" imgsrc="tearhaunch.gif"></item>
+</normal>
+<exceptional>
+<item name="Infernostride" type="Demonhide Boots" imgsrc="leatherboots.gif"></item>
+<item name="Waterwalk" type="Sharkskin Boots" imgsrc="heavyboots.gif"></item>
+<item name="Silkweave" type="Mesh Boots" imgsrc="chainboots.gif"></item>
+<item name="War Traveler" type="Battle Boots" imgsrc="goblintoe.gif"></item>
+<item name="Gore Rider" type="War Boots" imgsrc="plateboots.gif"></item>
+</exceptional>
+<elite>
+<item name="Sandstorm Trek" type="Scarabshell Boots" imgsrc="heavyboots.gif"></item>
+<item name="Marrowwalk" type="Boneweave Boots" imgsrc="chainboots.gif"></item>
+<item name="Shadow Dancer" type="Myrmidon Greaves" imgsrc="shadowdancer.gif"></item>
+</elite>
+</boots>

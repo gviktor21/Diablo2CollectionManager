@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maces>
+<normal>
+
+	<item name="Felloak" type="Club" imgsrc="felloak.gif" />
+	<item name="Stoutnail" type="Spiked Club" imgsrc="stoutnail.gif" />
+	<item name="Crushflange" type="Mace" imgsrc="crushflange.gif" />
+	<item name="Bloodrise" type="Morning Star" imgsrc="bloodrise.gif" />
+	<item name="The General's Tan Do Li Ga" type="Flail" imgsrc="thegeneralstandoliga.gif" />
+	<item name="Ironstone" type="War Hammer" imgsrc="ironstone.gif" />
+	<item name="Bonesnap" type="Maul" imgsrc="bonesnap.gif" />
+	<item name="Steeldriver" type="Great Maul" imgsrc="steeldriver.gif" />
+</normal>
+<exceptional>
+	<item name="Dark Clan Crusher" type="Cudgel" imgsrc="felloak (1).gif" />
+	<item name="Fleshrender" type="Barbed Club" imgsrc="stoutnail (1).gif" />
+	<item name="Sureshrill Frost" type="Flanged Mace" imgsrc="crushflange (1).gif" />
+	<item name="Moonfall" type="Jagged Star" imgsrc="bloodrise (1).gif" />
+	<item name="Baezil's Vortex" type="Knout" imgsrc="thegeneralstandoliga (1).gif" />
+	<item name="Earthshaker" type="Battle Hammer" imgsrc="warhammer.gif" />
+	<item name="Bloodtree Stump" type="War Club" imgsrc="maul.gif" />
+	<item name="The Gavel Of Pain" type="Martel de Fer" imgsrc="gavelofpain.gif" />
+</exceptional>
+<elite>
+	<item name="Nord's Tenderizer" type="Truncheon" imgsrc="felloak (2).gif" />
+	<item name="Demon Limb" type="Tyrant Club" imgsrc="stoutnail (2).gif" />
+	<item name="Baranar's Star" type="Devil Star" imgsrc="bloodrise (2).gif" />
+	<item name="Horizon's Tornado" type="Scourge" imgsrc="horizonstornado.gif" />
+	<item name="Stormlash" type="Scourge" imgsrc="stormlash.gif" />
+	<item name="Stone Crusher" type="Legendary Mallet" imgsrc="stonecrusher.gif" />
+	<item name="Schaefer's Hammer" type="Legendary Mallet" imgsrc="ironstone (1).gif" />
+	<item name="Windhammer" type="Ogre Maul" imgsrc="windhammer.gif" />
+	<item name="Earth Shifter" type="Thunder Maul" imgsrc="earthshifter.gif" />
+	<item name="The Cranium Basher" type="Thunder Maul" imgsrc="steeldriver (1).gif" />
+</elite>
+</maces>

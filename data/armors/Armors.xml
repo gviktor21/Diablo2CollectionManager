@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<armors>
+<normal>
+
+	<item name="Greyform" type="Quilted Armor" imgsrc="greyform.gif" />
+	<item name="Blinkbat's Form" type="Leather Armor" imgsrc="blinkbatsform.gif" />
+	<item name="The Centurion" type="Hard Leather Armor" imgsrc="thecenturion.gif" />
+	<item name="Twitchthroe" type="Studded Leather" imgsrc="twitchthroe.gif" />
+	<item name="Darkglow" type="Ring Mail" imgsrc="darkglow.gif" />
+	<item name="Hawkmail" type="Scale Mail" imgsrc="hawkmail.gif" />
+	<item name="Venom Ward" type="Breast Plate" imgsrc="venomsward.gif" />
+	<item name="Sparking Mail" type="Chain Mail" imgsrc="sparklingmail.gif" />
+	<item name="Iceblink" type="Splint Mail" imgsrc="iceblink.gif" />
+	<item name="Heavenly Garb" type="Light Plate" imgsrc="heavenlygarb.gif" />
+	<item name="Rockfleece" type="Field Plate" imgsrc="rockfleece.gif" />
+	<item name="Boneflesh" type="Plate Mail" imgsrc="boneflesh.gif" />
+	<item name="Rattlecage" type="Gothic Plate" imgsrc="rattlecage.gif" />
+	<item name="Goldskin" type="Full Plate Mail" imgsrc="goldskin.gif" />
+	<item name="Silks of the Victor" type="Ancient Armor" imgsrc="victorssilk.gif" />
+
+</normal>
+<exceptional>
+	<item name="The Spirit Shroud" type="Ghost Armor" imgsrc="quilted.gif" />
+	<item name="Skin of the Vipermagi" type="Serpentskin Armor" imgsrc="vipermagicskin.gif" />
+	<item name="Skin of the Flayed One" type="Demonhide Armor" imgsrc="flayedoneskin.gif" />
+	<item name="Iron Pelt" type="Trellised Armor" imgsrc="ironpelt.gif" />
+	<item name="Crow Caw" type="Tigulated Mail" imgsrc="scalemail.gif" />
+	<item name="Spirit Forge" type="Linked Mail" imgsrc="ringmail.gif" />
+	<item name="Duriel's Shell" type="Cuirass" imgsrc="durielsshell.gif" />
+	<item name="Shaftstop" type="Mesh Armor" imgsrc="chainmail.gif" />
+	<item name="Skullder's Ire" type="Russet Armor" imgsrc="splintmail.gif" />
+	<item name="Que-Hegan's Wisdom" type="Mage Plate" imgsrc="lightplate.gif" />
+	<item name="Toothrow" type="Sharktooth Armor" imgsrc="toothrow.gif" />
+	<item name="Guardian Angel" type="Templar Coat" imgsrc="guardianangel.gif" />
+	<item name="Atma's Wail" type="Embossed Plate" imgsrc="gothicplate.gif" />
+	<item name="Black Hades" type="Chaos Armor" imgsrc="fullplate.gif" />
+	<item name="Corpsemourn" type="Ornate Plate" imgsrc="corpsemourn.gif" />
+</exceptional>
+<elite>
+	<item name="Ormus' Robes" type="Dusk Shroud" imgsrc="ormusrobes.gif" />
+	<item name="The Gladiator's Bane" type="Wire Fleece" imgsrc="gladiatorsbane.gif" />
+	<item name="Arkaine's Valor" type="Balrog Skin" imgsrc="balrogskin.gif" />
+	<item name="Leviathan" type="Kraken Shell" imgsrc="leviathan.gif" />
+	<item name="Steel Carapace" type="Shadow Plate" imgsrc="steelcarapace.gif" />
+	<item name="Templar's Might" type="Sacred Armor" imgsrc="templarsmight.gif" />
+	<item name="Tyrael's Might" type="Sacred Armor" imgsrc="milabregasrobe.gif" />
+
+</elite>
+</armors>

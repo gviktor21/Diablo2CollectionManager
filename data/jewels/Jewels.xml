@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jewels>
+<undefined>
+
+	<item name="Rainbow FacetFire(1)" type="Jewel" imgsrc="jewel05.gif" />
+	<item name="Rainbow FacetCold(1)" type="Jewel" imgsrc="jewel02.gif" />
+	<item name="Rainbow FacetLight(1)" type="Jewel" imgsrc="jewel06.gif" />
+	<item name="Rainbow FacetPoison(1)" type="Jewel" imgsrc="jewel04.gif" />
+	<item name="Rainbow FacetFire(2)" type="Jewel" imgsrc="jewel05 (1).gif" />
+	<item name="Rainbow FacetCold(2)" type="Jewel" imgsrc="jewel02 (1).gif" />
+	<item name="Rainbow FacetLight(2)" type="Jewel" imgsrc="jewel06 (1).gif" />
+	<item name="Rainbow FacetPoison(2)" type="Jewel" imgsrc="jewel04 (1).gif" />
+
+</undefined>
+
+</jewels>

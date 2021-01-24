@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wands>
+<normal>
+	<item name="Torch of Iro" type="Wand" imgsrc="maelstromwrath.gif" />
+	<item name="Maelstrom" type="Yew Wand" imgsrc="irostorch.gif" />
+	<item name="Gravenspine" type="Bone Wand" imgsrc="gravenspine.gif" />
+	<item name="Ume's Lament" type="Grim Wand" imgsrc="grimwand.gif" />
+
+</normal>
+<exceptional>
+	<item name="Suicide Branch" type="Burnt Wand" imgsrc="wand.gif" />
+	<item name="Carin Shard" type="Petrified Wand" imgsrc="maelstromwrath (1).gif" />
+	<item name="Arm of King Leoric" type="Tomb Wand" imgsrc="gravenspine (1).gif" />
+	<item name="Blackhand Key" type="Wand" imgsrc="blackhandkey.gif" />
+
+</exceptional>
+<elite>
+	<item name="Boneshade" type="Lich Wand" imgsrc="gravenspine (2).gif" />
+	<item name="Death's Web" type="Unearthed Wand" imgsrc="deathsweb.gif" />
+
+</elite>
+</wands>

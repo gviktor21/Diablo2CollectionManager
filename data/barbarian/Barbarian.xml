@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<barbarian>
+<exceptional>
+	<item name="Arreat's Face" type="Slayer Guard" imgsrc="avengerguard.gif" />
+
+</exceptional>
+<elite>
+	<item name="Wolfhowl" type="Fury Visor" imgsrc="fangedhelm.gif" />
+	<item name="Demonhorn's Edge" type="Destroyer Helm" imgsrc="hornedhelm.gif" />
+	<item name="Halaberd's Reign" type="Conqueror Crown" imgsrc="assualthelm.gif" />
+
+</elite>
+</barbarian>

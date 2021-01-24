@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<paladin>
+<exceptional>
+	<item name="Herald Of Zakarum" type="Gilded Shield" imgsrc="aerinshield.gif" />
+
+</exceptional>
+<elite>
+	<item name="Alma Negra" type="Sacred Rondache" imgsrc="rondache.gif" />
+	<item name="Dragonscale" type="Zakarum Shield" imgsrc="aerinshield (1).gif" />
+
+</elite>
+</paladin>

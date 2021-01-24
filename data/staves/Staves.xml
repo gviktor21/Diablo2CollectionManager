@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<staves>
+<normal>
+
+	<item name="Bane Ash" type="Short Staff" imgsrc="baneash.gif" />
+	<item name="Serpent Lord" type="Long Staff" imgsrc="serpentlord.gif" />
+	<item name="Spire of Lazarus" type="Gnarled Staff" imgsrc="lazarusspire.gif" />
+	<item name="The Salamander" type="Battle Staff" imgsrc="thesalamander.gif" />
+	<item name="The Iron Jang Bong" type="War Staff" imgsrc="theironlangbong.gif" />
+
+</normal>
+<exceptional>
+	<item name="Razorswitch" type="Jo Staff" imgsrc="shortstaff.gif" />
+	<item name="Ribcracker" type="Quarterstaff" imgsrc="ribcracker.gif" />
+	<item name="Chromatic Ire" type="Cedar Staff" imgsrc="lazarusspire (1).gif" />
+	<item name="Warpspear" type="Gothic Staff" imgsrc="warpspear.gif" />
+	<item name="Skull Collector" type="Rune Staff" imgsrc="skullcollector.gif" />
+</exceptional>
+<elite>
+	<item name="Ondal's Wisdom" type="Elder Staff" imgsrc="lazarusspire (2).gif" />
+	<item name="Mang Song's Lesson" type="Archon Staff" imgsrc="mangsongslesson.gif" />
+
+</elite>
+</staves>

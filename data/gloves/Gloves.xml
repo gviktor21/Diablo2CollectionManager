@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+	<item name="The Hand of Broc" type="Leather Gloves" imgsrc="thehandofbroc.gif" 
+		htmlContent= "Later"
+	></item>
+	<item name="BloodFist" type="Heavy Gloves" imgsrc="bloodfist.gif" />
+	<item name="Chance Guards" type="Chain Gloves" imgsrc="chanceguards.gif" />
+	<item name="Magefist" type="Light Gauntlets" imgsrc="magefist.gif" />
+	<item name="Frostburn" type="Gauntlets" imgsrc="frostburn.gif" />
+</normal>
+<exceptional>
+	<item name="Venom Grip" type="Demonhide Gloves" imgsrc="leathergloves.gif" />
+	<item name="Gravepalm" type="Sharkskin Gloves" imgsrc="heavygloves.gif" />
+	<item name="Ghoulhide" type="Heavy Bracers" imgsrc="chaingloves.gif" />
+	<item name="Lava Gout" type="Battle Gauntlets" imgsrc="lightgauntlets.gif" />
+	<item name="Hellmouth" type="War Gauntlets" imgsrc="gauntlets.gif" />
+</exceptional>
+<elite>
+	<item name="Dracul's Grasp" type="Vampirebone Gloves" imgsrc="draculsgrasp.gif" />
+	<item name="Soul Drainer" type="Vambraces" imgsrc="souldrainer.gif" />
+	<item name="Steelrend" type="Ogre Gauntlets" imgsrc="steelrend.gif" />
+</elite>
+</gloves>

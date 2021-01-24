@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shields>
+<normal>
+	<item name="Pelta Lunata" type="Buckler" imgsrc="peltalunata.gif" />
+	<item name="Umbral Disk" type="Small Shield" imgsrc="umbraldisk.gif" />
+	<item name="Stormguild" type="Large Shield" imgsrc="stormguild.gif" />
+	<item name="Steelclash" type="Kite Shield" imgsrc="steelclash.gif" />
+	<item name="Swordback Hold" type="Spiked Shield" imgsrc="swordbackhold.gif" />
+	<item name="Bverrit Keep" type="Tower Shield" imgsrc="bverritkeep.gif" />
+	<item name="Wall of the Eyeless" type="Bone Shield" imgsrc="walloftheeyeless.gif" />
+	<item name="The Ward" type="Gothic Shield" imgsrc="theward.gif" />
+</normal>
+<exceptional>
+	<item name="Visceratuant" type="Defender" imgsrc="peltalunata (1).gif" />
+	<item name="Moser's Blessed Circle" type="Round Shield" imgsrc="blessedcircle.gif" />
+	<item name="Stormchaser" type="Scutum" imgsrc="stormchaser.gif" />
+	<item name="Tiamat's Rebuke" type="Dragon Shield" imgsrc="steelclash (1).gif" />
+	<item name="Lance Guard" type="Barbed Shield" imgsrc="lanceguard.gif" />
+	<item name="Gerke's Sanctuary" type="Pavise" imgsrc="bverritkeep (1).gif" />
+	<item name="Lidless Wall" type="Grim Shield" imgsrc="lidlesswall.gif" />
+	<item name="Radament's Sphere" type="Ancient Shield" imgsrc="theward (1).gif" />
+
+</exceptional>
+<elite>
+	<item name="Blackoak Shield" type="Luna" imgsrc="umbraldisk (1).gif" />
+	<item name="Stormshield" type="Monarch" imgsrc="steelclash (2).gif" />
+	<item name="Spike Thorn" type="Blade Barrier" imgsrc="swordbackhold (1).gif" />
+	<item name="Medusa's Gaze" type="Aegis" imgsrc="bverritkeep (2).gif" />
+	<item name="Head Hunter's Glory" type="Troll Nest" imgsrc="walloftheeyeless (1).gif" />
+	<item name="Spirit Ward" type="Ward" imgsrc="theward (2).gif" />
+</elite>
+</shields>

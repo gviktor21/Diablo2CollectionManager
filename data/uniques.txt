@@ -1,0 +1,3 @@
+Gloves, Boots, Armors, Belts, Helms, Shields, Wands, Daggers, Bows, Crossbows, Throwingweapons, Staves
+Javelins, Scepters, Spears, Polearms, Axes, Maces, Amulets, Rings, Circlets, Swords,
+Amazon, Assassin, Barbarian, Druid, Necromancer, Paladin, Sorceress, Charms, Jewels

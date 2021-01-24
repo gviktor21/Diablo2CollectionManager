@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="BloodFist" type="Heavy Gloves" imgsrc="bloodfist.gif" />
+
+</normal>
+<exceptional>
+
+</exceptional>
+<elite>
+
+</elite>
+</gloves>

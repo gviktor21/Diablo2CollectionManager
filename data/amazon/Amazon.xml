@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<amazon>
+<exceptional>
+	<item name="Titan's Revenge" type="Ceremonial Javelin" imgsrc="maidenjavelin.gif" />
+	<item name="Lycander's Flank" type="Ceremonial Pike" imgsrc="maidenpike.gif" />
+	<item name="Lycander's Aim" type="Ceremonial Bow" imgsrc="reflexbow.gif" />
+</exceptional>
+<elite>
+	<item name="Stoneraven" type="Matriarchal Spear" imgsrc="stoneraven.gif" />
+	<item name="Thunderstroke" type="Matriarchal Javelin" imgsrc="thunderstroke.gif" />
+	<item name="Blood Raven's Charge" type="Matriarchal Bow" imgsrc="bloodravenscharge.gif" />
+</elite>
+</amazon>

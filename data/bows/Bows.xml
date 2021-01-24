@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bows>
+<normal>
+
+	<item name="Pluckeye" type="Short Bow" imgsrc="pluckeye.gif" />
+	<item name="Witherstring" type="Hunter's Bow" imgsrc="witherstring.gif" />
+	<item name="Raven Claw" type="Long Bow" imgsrc="rimeraven.gif" />
+	<item name="Rogue's Bow" type="Composite Bow" imgsrc="piercerib.gif" />
+	<item name="Stormstrike" type="Short Battle Bow" imgsrc="pullspite.gif" />
+	<item name="Wizendraw" type="Long Battle Bow" imgsrc="wizendraw.gif" />
+	<item name="Hellclap" type="Short War Bow" imgsrc="hellclap.gif" />
+	<item name="Blastbark" type="Long War Bow" imgsrc="blastbark.gif" />
+
+</normal>
+<exceptional>
+	<item name="Skystrike" type="Edge Bow" imgsrc="shortbow.gif" />
+	<item name="Riphook" type="Razor Bow" imgsrc="riphook.gif" />
+	<item name="Kuko Shakaku" type="Cedar Bow" imgsrc="kukoshakaku.gif" />
+	<item name="Endlesshail" type="Double Bow" imgsrc="piercerib (1).gif" />
+	<item name="Witchwild String" type="Short Siege Bow" imgsrc="whichwildstring.gif" />
+	<item name="Cliffkiller" type="Large Siege Bow" imgsrc="cliffkiller.gif" />
+	<item name="Magewrath" type="Rune Bow" imgsrc="hellclap (1).gif" />
+	<item name="Goldstrike Arch" type="Gothic Bow" imgsrc="goldstrikearch.gif" />
+
+</exceptional>
+<elite>
+	<item name="Eaglehorn" type="Crusader Bow" imgsrc="longbattlebow.gif" />
+	<item name="Widowmaker" type="Ward Bow" imgsrc="widowmaker.gif" />
+	<item name="Windforce" type="Hydra Bow" imgsrc="windforce.gif" />
+
+</elite>
+</bows>

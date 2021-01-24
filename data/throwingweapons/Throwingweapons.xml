@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<throwingweapons>
+<normal>
+
+
+</normal>
+<exceptional>
+	<item name="Deathbit" type="Battle Dart" imgsrc="throwingknife.gif" />
+	<item name="The Scalper" type="Francisca" imgsrc="throwingaxe.gif" />
+
+</exceptional>
+<elite>
+	<item name="Warshrike" type="Winged Knife" imgsrc="warshrike.gif" />
+	<item name="Gimmershred" type="Flying Axe" imgsrc="gimmershred.gif" />
+	<item name="Lacerator" type="Winged Axe" imgsrc="balancedaxe.gif" />
+</elite>
+</throwingweapons>

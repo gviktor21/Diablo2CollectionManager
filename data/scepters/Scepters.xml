@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<scepters>
+<normal>
+
+	<item name="Knell Striker" type="Scepter" imgsrc="scepter.gif" />
+	<item name="Rusthandle" type="Grand Scepter" imgsrc="grandscepter.gif" />
+	<item name="Stormeye" type="War Scepter" imgsrc="warscepter.gif" />
+
+</normal>
+<exceptional>
+	<item name="Zakarum's Hand" type="Rune Scepter" imgsrc="scepter (1).gif" />
+	<item name="The Fetid Sprinkler" type="Holy Water Sprinkler" imgsrc="grandscepter (1).gif" />
+	<item name="Hand of Blessed Light" type="Divine Scepter" imgsrc="warscepter (1).gif" />
+
+</exceptional>
+<elite>
+	<item name="Heaven's Light" type="WMighty Scepter" imgsrc="scepter (2).gif" />
+	<item name="The Redeemer" type="Mighty Scepter" imgsrc="scepter (3).gif" />
+	<item name="Astreon's Iron Ward" type="Caduceus" imgsrc="warscepter (2).gif" />
+
+</elite>
+</scepters>

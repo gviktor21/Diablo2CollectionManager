@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<socreress>
+<normal>
+
+	
+</normal>
+<exceptional>
+	<item name="The Oculus" type="Swirling Crystal" imgsrc="dragonstone.gif" />
+
+</exceptional>
+<elite>
+	<item name="Eschuta's Temper" type="Eldritch Orb" imgsrc="sacredglobe.gif" />
+	<item name="Death's Fathom" type="Dimensional Shard" imgsrc="dragonstone (1).gif" />
+
+</elite>
+</socreress>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<charms>
+<undefined>
+
+	<item name="Annihilus*" type="Small Charm" imgsrc="bluecharm.gif" />
+	<item name="Gheed's Fortune*" type="Grand Charm" imgsrc="largecharm01.gif" />
+	<item name="Hellfire Torch*" type="Large Charm" imgsrc="hellfiretorch.jpg" />
+
+</undefined>
+
+</charms>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<axes>
+<normal>
+
+	<item name="The Gnasher" type="Hand Axe" imgsrc="thegnasher.gif" />
+	<item name="Deathspade" type="Axe" imgsrc="deathspade.gif" />
+	<item name="Bladebone" type="Double Axe" imgsrc="doubleaxe.gif" />
+	<item name="Skull Splitter" type="Military Pick" imgsrc="mindrend.gif" />
+	<item name="Rakescar" type="War Axe" imgsrc="waraxe.gif" />
+	<item name="Axe of Fechmar" type="Large Axe" imgsrc="largeaxe.gif" />
+	<item name="Goreshovel" type="Broad Axe" imgsrc="broadaxe.gif" />
+	<item name="The Chieftain" type="Battle Axe" imgsrc="thechieftan.gif" />
+	<item name="Battle Axe" type="Great Axe" imgsrc="brainhew.gif" />
+	<item name="Humongous" type="Giant Axe" imgsrc="giantaxe.gif" />
+
+</normal>
+<exceptional>
+	<item name="Coldkill" type="Hatchet" imgsrc="coldkill.gif" />
+	<item name="Butcher's Pupil" type="Cleaver" imgsrc="butcherspupil.gif" />
+	<item name="Islestrike" type="Twin Axe" imgsrc="doubleaxe (1).gif" />
+	<item name="Pompeii's Wrath" type="Crowbill" imgsrc="mindrend (1).gif" />
+	<item name="Guardian Naga" type="Naga" imgsrc="waraxe (1).gif" />
+	<item name="Warlord's Trust" type="Military Axe" imgsrc="largeaxe (1).gif" />
+	<item name="Spellsteel" type="Bearded Axe" imgsrc="broadaxe (1).gif" />
+	<item name="Stormrider" type="Tabar" imgsrc="stormrider.gif" />
+	<item name="Boneslayer Blade" type="Gothic Axe" imgsrc="brainhew (1).gif" />
+	<item name="The Minotaur" type="Ancient Axe" imgsrc="minotuar.gif" />
+
+</exceptional>
+<elite>
+	<item name="Razor's Edge" type="Tomahawk" imgsrc="thegnasher (1).gif" />
+	<item name="Rune Master" type="Ettin Axe" imgsrc="doubleaxe (2).gif" />
+	<item name="Cranebeak" type="War Spike" imgsrc="mindrend (2).gif" />
+	<item name="Death Cleaver" type="Berserker Axe" imgsrc="waraxe (2).gif" />
+	<item name="Ethereal Edge" type="Silver-Edged Axe" imgsrc="etherealedge.gif" />
+	<item name="Hellslayer" type="Decapitator" imgsrc="thechieftan (1).gif" />
+	<item name="Messerschmidt's Reaver" type="Champion Axe" imgsrc="brainhew (2).gif" />
+	<item name="Executioner's Justice" type="Glorious Axe" imgsrc="executionersjustice.gif" />
+
+</elite>
+</axes>

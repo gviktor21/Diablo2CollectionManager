@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<helms>
+<normal>
+
+	<item name="Biggin's Bonnet" type="Cap" imgsrc="warbonet.gif" />
+	<item name="Tarnhelm" type="Skull Cap" imgsrc="tarnhelm.gif" />
+	<item name="Coif of Glory" type="Helm" imgsrc="coifofglory.gif" />
+	<item name="Duskdeep" type="Full Helm" imgsrc="duskdeep.gif" />
+	<item name="Howltusk" type="Great Helm" imgsrc="howltusk.gif" />
+	<item name="The Face of Horror" type="Mask" imgsrc="mask.gif" />
+	<item name="Undead Crown" type="Crown" imgsrc="undeadcrown.gif" />
+	<item name="Wormskull" type="Bone Helm" imgsrc="wormskull.gif" />
+</normal>
+<exceptional>
+	<item name="Peasant Crown" type="War Hat" imgsrc="cap.gif" />
+	<item name="Rockstopper" type="Sallet" imgsrc="rockstopper.gif" />
+	<item name="Stealskull" type="Casque" imgsrc="coifofglory (1).gif" />
+	<item name="Darksight Helm" type="Basinet" imgsrc="darksighthelm.gif" />
+	<item name="Valkyrie Wing" type="Winged Helm" imgsrc="howltusk (1).gif" />
+	<item name="Blackhorn's Face" type="Death Mask" imgsrc="mask (1).gif" />
+	<item name="Crown of Thieves" type="Grand Crown" imgsrc="crownofthieves.gif" />
+	<item name="Vampire Gaze" type="Grim Helm" imgsrc="vampiregaze.gif" />
+
+</exceptional>
+<elite>
+	<item name="Harlequin Crest" type="Shako" imgsrc="harlequincrest.gif" />
+	<item name="Steel Shade" type="Armet" imgsrc="steelshade.gif" />
+	<item name="Veil of Steel" type="Spired Helm" imgsrc="steelshade.gif" />
+	<item name="Nightwing's Veil" type="Spired Helm" imgsrc="veilofsteel.gif" />
+	<item name="Andariel's Visage" type="Demonhead" imgsrc="mask (2).gif" />
+	<item name="Crown of Ages" type="Corona" imgsrc="crownofages.gif" />
+	<item name="Giant Skull" type="Bone Visage" imgsrc="giantskull.gif" />
+</elite>
+</helms>

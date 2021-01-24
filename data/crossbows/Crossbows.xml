@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<crossbows>
+<normal>
+
+	<item name="Leadcrow" type="Light Crossbow" imgsrc="leadcrow.gif" />
+	<item name="Ichorsting" type="Crossbow" imgsrc="ichorsting.gif" />
+	<item name="Hellcast" type="Heavy Crossbow" imgsrc="hellcast.gif" />
+	<item name="Doomslinger" type="Repeating Crossbow" imgsrc="doomspittle.gif" />
+
+</normal>
+<exceptional>
+	<item name="Langer Briser" type="Arbalest" imgsrc="langerbriser.gif" />
+	<item name="Pus Spitter" type="Siege Crossbow" imgsrc="pusspitter.gif" />
+	<item name="Buriza-Do Kyanon" type="Ballista" imgsrc="hellcast (1).gif" />
+	<item name="Demon Machine" type="Chu-Ko-Nu" imgsrc="demonmachine.gif" />
+
+</exceptional>
+<elite>
+	<item name="Hellrack" type="Colossus Crossbow" imgsrc="hellrack.gif" />
+	<item name="Gut Siphon" type="Demon Crossbow" imgsrc="gutsiphon.gif" />
+
+</elite>
+</crossbows>

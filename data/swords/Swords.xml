@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<swords>
+<normal>
+
+	<item name="Rixot's Keen" type="Short Sword" imgsrc="rixotskeen.gif" />
+	<item name="Blood Crescent" type="Scimitar" imgsrc="bloodcrescent.gif" />
+	<item name="Skewer of Krintiz" type="Sabre" imgsrc="angelicsickle.gif" />
+	<item name="Gleamscythe" type="Falchion" imgsrc="gleamscythe.gif" />
+	<item name="Griswold's Edge" type="Broad Sword" imgsrc="griswoldsedge.gif" />
+	<item name="Hellplague" type="Long Sword" imgsrc="hellplague.gif" />
+	<item name="Culwen's Point" type="War Sword" imgsrc="warsword.gif" />
+	<item name="Shadowfang" type="Two-Handed Sword" imgsrc="shadowfang.gif" />
+	<item name="Soulflay" type="Claymore" imgsrc="soulflay.gif" />
+	<item name="Kinemil's Awl" type="Giant Sword" imgsrc="kinemilsawl.gif" />
+	<item name="Blacktongue" type="Bastard Sword" imgsrc="blacktongue.gif" />
+	<item name="Ripsaw" type="Flamberge" imgsrc="ripsaw.gif" />
+	<item name="The Patriarch" type="Great Sword" imgsrc="thepatriarch.gif" />
+
+</normal>
+<exceptional>
+	<item name="Bloodletter" type="Gladius" imgsrc="rixotskeen (1).gif" />
+	<item name="Coldsteel Eye" type="Cutlass" imgsrc="bloodcrescent (1).gif" />
+	<item name="Hexfire" type="Shamshir" imgsrc="krintizskewer.gif" />
+	<item name="Blade Of Ali Baba" type="Tulwar" imgsrc="bladeofalibaba.gif" />
+	<item name="Ginther's Rift" type="Dimensional Blade" imgsrc="riftlash.gif" />
+	<item name="Headstriker" type="Battle Sword" imgsrc="headstriker.gif" />
+	<item name="Plague Bearer" type="Rune Sword" imgsrc="plaguebearer.gif" />
+	<item name="The Atlantean" type="Ancient Sword" imgsrc="atlantean.gif" />
+	<item name="Crainte Vomir" type="Espandon" imgsrc="shadowfang (1).gif" />
+	<item name="Bing Sz Wang" type="Dacian Falx" imgsrc="soulflay (1).gif" />
+	<item name="The Vile Husk" type="Tusk Sword" imgsrc="kinemilsawl (1).gif" />
+	<item name="Cloudcrack" type="Gothic Sword" imgsrc="blacktongue (1).gif" />
+	<item name="Todesfaelle Flamme" type="Zweihander" imgsrc="todesfaelleflamme.gif" />
+	<item name="Swordguard" type="Executioner Sword" imgsrc="swordguard.gif" />
+
+</exceptional>
+<elite>
+	<item name="Djinn Slayer" type="Ataghan" imgsrc="bloodcrescent (2).gif" />
+	<item name="Bloodmoon" type="Elegant Blade" imgsrc="krintizskewer (1).gif" />
+	<item name="Lightsabre" type="Phase Blade" imgsrc="azurewrath.gif" />
+	<item name="Azurewrath" type="Phase Blade" imgsrc="azurewrath (1).gif" />
+	<item name="Frostwind" type="Cryptic Sword" imgsrc="hellplague (1).gif" />
+	<item name="Flamebellow" type="Balrog Blade" imgsrc="flamebellow.gif" />
+	<item name="Doombringer" type="Champion Sword" imgsrc="blacktongue (2).gif" />
+	<item name="The Grandfather" type="Colossus Blade" imgsrc="thepatriarch (1).gif" />
+
+</elite>
+</swords>

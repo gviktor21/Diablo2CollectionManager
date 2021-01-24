@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<belts>
+<normal>
+
+	<item name="Lenymo" type="Sash" imgsrc="lenymscord.gif" />
+	<item name="Snakecord" type="Light Belt" imgsrc="snakecord.gif" />
+	<item name="Nightsmoke" type="Belt" imgsrc="nightsmoke.gif" />
+	<item name="Goldwrap" type="Heavy Belt" imgsrc="goldwrap.gif" />
+	<item name="Bladebuckle" type="Plated Belt" imgsrc="bladebuckle.gif" />
+
+</normal>
+<exceptional>
+	<item name="String of Ears" type="Demonhide Sash" imgsrc="sash.gif" />
+	<item name="Razortail" type="Sharkskin Belt" imgsrc="lightbelt.gif" />
+	<item name="Gloom's Trap" type="Mesh Belt" imgsrc="belt.gif" />
+	<item name="Snowclash" type="Battle Belt" imgsrc="heavybelt.gif" />
+	<item name="Thundergod's Vigor" type="War Belt" imgsrc="girdle.gif" />
+
+</exceptional>
+<elite>
+	<item name="Arachnid Mesh" type="Spiderweb Sash" imgsrc="arachnidmesh.gif" />
+	<item name="Nosferatu's Coil*" type="Vampirefang Belt" imgsrc="nosferatuscoil.gif" />
+	<item name="Verdungo's Hearty Cord" type="Mithril Coil" imgsrc="verdungosheartycord.gif" />
+</elite>
+</belts>

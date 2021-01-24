@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<necromancer>
+
+<exceptional>
+	<item name="Homunculus" type="Hierophant Trophy" imgsrc="demonhead.gif" />
+
+</exceptional>
+<elite>
+	<item name="Boneflame" type="Succubus Skull" imgsrc="gargoylehead.gif" />
+	<item name="Darkforce Spawn" type="Bloodlord Skull" imgsrc="demonhead (1).gif" />
+
+</elite>
+</necromancer>

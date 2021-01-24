@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<assassin>
+<exceptional>
+	<item name="Bartuc's Cut-Throat" type="Greater Talons" imgsrc="claws.gif" />
+</exceptional>
+<elite>
+	<item name="Jade Talon" type="Wrist Sword" imgsrc="jadetalon.gif" />
+	<item name="Shadow Killer" type="Battle Cestus" imgsrc="shadowkiller.gif" />
+	<item name="Firelizard's Talons" type="Feral Claws" imgsrc="claws (1).gif" />
+</elite>
+</assassin>

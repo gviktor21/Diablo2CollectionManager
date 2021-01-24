@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<polearms>
+<normal>
+
+	<item name="Dimoak's Hew" type="Bardiche" imgsrc="bardiche.gif" />
+	<item name="Steelgoad" type="Voulge" imgsrc="steelgoad.gif" />
+	<item name="Soul Harvest" type="Scythe" imgsrc="soulharvest.gif" />
+	<item name="The Battlebranch" type="Poleaxe" imgsrc="poleaxe.gif" />
+	<item name="Woestave" type="Halberd" imgsrc="halberd.gif" />
+	<item name="The Grim Reaper" type="War Scythe" imgsrc="warscythe.gif" />
+
+</normal>
+<exceptional>
+	<item name="The Meat Scraper" type="Lochaber Axe" imgsrc="meatscraper.gif" />
+	<item name="Blackleach Blade" type="Bill" imgsrc="voulge.gif" />
+	<item name="Athena's Wrath" type="Battle Scythe" imgsrc="athenaswrath.gif" />
+	<item name="Pierre Tombale Couant" type="Partizan" imgsrc="poleaxe (1).gif" />
+	<item name="Husoldal Evo" type="Bec-De-Corbin" imgsrc="halberd (1).gif" />
+	<item name="Grim's Burning Dead" type="Grim Scythe" imgsrc="warscythe (1).gif" />
+
+</exceptional>
+<elite>
+	<item name="Bonehew" type="Ogre Axe" imgsrc="bonehew.gif" />
+	<item name="The Reaper's Toll" type="Thresher" imgsrc="scythe.gif" />
+	<item name="Tomb Reaver" type="Cryptic Axe" imgsrc="poleaxe (2).gif" />
+	<item name="Stormspire" type="Giant Thresher" imgsrc="warscythe (2).gif" />
+
+</elite>
+</polearms>

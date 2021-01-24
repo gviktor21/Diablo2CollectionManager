@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<amulets>
+<undefined>
+
+	<item name="Nokozan Relic" type="amulet" imgsrc="amu2.gif" />
+	<item name="The Eye of Etlich" type="amulet" imgsrc="amu2 (1).gif" />
+	<item name="The Mahim-Oak Curio" type="amulet" imgsrc="amu3.gif" />
+	<item name="Saracen's Chance" type="amulet" imgsrc="amu1.gif" />
+	<item name="The Cat's Eye" type="amulet" imgsrc="amu2 (2).gif" />
+	<item name="Crescent Moon" type="amulet" imgsrc="amu3 (1).gif" />
+	<item name="Atma's Scarab" type="amulet" imgsrc="amu2 (3).gif" />
+	<item name="The Rising Sun" type="amulet" imgsrc="amu3 (2).gif" />
+	<item name="Highlord's Wrath" type="amulet" imgsrc="amu3 (3).gif" />
+	<item name="Mara's Kaleidoscope" type="amulet" imgsrc="amu1 (1).gif" />
+	<item name="Seraph's Hymn*" type="amulet" imgsrc="amu2 (4).gif" />
+	<item name="Metalgrid" type="amulet" imgsrc="amu2 (5).gif" />
+
+</undefined>
+</amulets>

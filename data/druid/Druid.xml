@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<druid>
+<normal>
+
+
+
+</normal>
+<exceptional>
+	<item name="Jalal's Mane" type="Totemic Mask" imgsrc="spiritmask.gif" />
+</exceptional>
+<elite>
+	<item name="Cerebus' Bite" type="Blood Spirit" imgsrc="cerebusbite.gif" />
+	<item name="Spirit Keeper" type="Earth Spirit" imgsrc="antlers.gif" />
+	<item name="Ravenlore" type="Sky Spirit" imgsrc="hawkhelm.gif" />
+
+</elite>
+</druid>
