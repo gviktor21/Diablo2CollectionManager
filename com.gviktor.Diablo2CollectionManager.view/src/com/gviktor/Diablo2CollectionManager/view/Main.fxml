@@ -104,6 +104,12 @@
                <Label id="setLabel" text="Sets" />
                <ChoiceBox id="choiceBox_Sets" fx:id="choiceBox_Sets" onAction="#action_SetChoice" prefWidth="150.0" />
            </HBox>
+           <HBox BorderPane.alignment="CENTER">
+               <Label fx:id="label_Paragraph1" text="df" />
+               <Label fx:id="label_Paragraph2" text="sdf" />
+               <Label fx:id="label_Paragraph3" text="sdf" />
+
+           </HBox>
        </VBox>
 
    </top>

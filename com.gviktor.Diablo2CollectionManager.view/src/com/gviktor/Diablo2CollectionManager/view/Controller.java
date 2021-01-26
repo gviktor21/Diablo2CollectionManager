@@ -61,6 +61,8 @@ public class Controller {
     ChoiceBox<String>  choiceBox_Uniques;
     @FXML
     ChoiceBox<String>  choiceBox_Sets;
+    @FXML
+            Label label_Paragraph1;
 
     UserCollection currentCollection;
     LinkedList<VBox> itemBoxes;

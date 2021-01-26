@@ -3,7 +3,6 @@ package com.gviktor.Diablo2CollectionManager.inputoutput;
 import com.gviktor.Diablo2CollectionManager.model.Item;
 import com.gviktor.Diablo2CollectionManager.model.ItemCategory;
 
-import com.gviktor.Diablo2CollectionManager.model.ItemCategoryByDifficulty;
 import javafx.collections.FXCollections;
 import org.xml.sax.SAXException;
 
@@ -83,10 +82,9 @@ public class ItemData {
                 //check it if it has difficulty property then downcast it
                 Item item  =items.get(0);
                 if(!item.getDiff_level().equals(Item.ItemLevel.UNDEFINED)){
-                    ItemCategory temp =itemCategory;
-                    itemCategory= new ItemCategoryByDifficulty(temp.getCategoryName(),temp.getMainPath());
+                    itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.DIFFICULTY);
                 }
-
+                itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.UNDEFINED);
                 itemCategory.setCategoryItems(items);
             } catch (SAXException e) {
                 e.printStackTrace();
