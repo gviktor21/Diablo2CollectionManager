@@ -83,8 +83,9 @@ public class ItemData {
                 Item item  =items.get(0);
                 if(!item.getDiff_level().equals(Item.ItemLevel.UNDEFINED)){
                     itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.DIFFICULTY);
+                }else {
+                    itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.UNDEFINED);
                 }
-                itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.UNDEFINED);
                 itemCategory.setCategoryItems(items);
             } catch (SAXException e) {
                 e.printStackTrace();

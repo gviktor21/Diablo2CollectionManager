@@ -5,9 +5,10 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.web.*?>
 
+<?import javafx.geometry.Insets?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Diablo2CManagerMain.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gviktor.Diablo2CollectionManager.view.Controller">
    <left>
-       <Button fx:id="b_previous" alignment="CENTER" onAction="#pressedPrevious" styleClass="sideButton" BorderPane.alignment="CENTER">
+       <Button fx:id="b_previous" alignment="CENTER" styleClass="sideButton" BorderPane.alignment="CENTER">
            <graphic>
                <ImageView fx:id="imageViewPrevButton">
                </ImageView>
@@ -16,7 +17,7 @@
        </Button>
    </left>
     <right>
-        <Button fx:id="b_next" onAction="#pressedNext" styleClass="sideButton" BorderPane.alignment="CENTER">
+        <Button fx:id="b_next"  styleClass="sideButton" BorderPane.alignment="CENTER">
             <graphic>
                 <ImageView fx:id="imageViewNextButton">
                 </ImageView>
@@ -81,7 +82,7 @@
       </GridPane>
    </center>
    <top>
-       <VBox>
+       <VBox >
            <MenuBar>
                <menus>
                    <Menu mnemonicParsing="false" text="File">
@@ -104,11 +105,13 @@
                <Label id="setLabel" text="Sets" />
                <ChoiceBox id="choiceBox_Sets" fx:id="choiceBox_Sets" onAction="#action_SetChoice" prefWidth="150.0" />
            </HBox>
-           <HBox BorderPane.alignment="CENTER">
+           <HBox BorderPane.alignment="CENTER" alignment="CENTER" spacing="20" >
                <Label fx:id="label_Paragraph1" text="df" />
                <Label fx:id="label_Paragraph2" text="sdf" />
                <Label fx:id="label_Paragraph3" text="sdf" />
-
+               <padding>
+                   <Insets top="0" right="5" bottom="10" left="0" />
+               </padding>
            </HBox>
        </VBox>
 

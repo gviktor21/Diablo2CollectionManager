@@ -43,10 +43,11 @@ public class Controller {
     //Todo: Kollecciókezelés
     public static final String URL_PREV_IMAGE="icons/botmenu-prev-ovr.gif";
     public static final String URL_NEXT_IMAGE="icons/botmenu-next-ovr.gif";
-    static HashMap<String, ItemCategory> uniqueItemsByCategory;
-    static ObservableList<String> itemTypes;
-    static ObservableList<String> setNames;
-    static HashMap<String, ItemCategory> setItemsBySets;
+    private static HashMap<String, ItemCategory> uniqueItemsByCategory;
+    private static ObservableList<String> itemTypes;
+    private static ObservableList<String> setNames;
+    private static HashMap<String, ItemCategory> setItemsBySets;
+    private  static  ItemShowLogic itemShowLogic;
     @FXML
     Button b_previous;
     @FXML
@@ -62,12 +63,16 @@ public class Controller {
     @FXML
     ChoiceBox<String>  choiceBox_Sets;
     @FXML
-            Label label_Paragraph1;
+    Label label_Paragraph1;
+    @FXML
+    Label label_Paragraph2;
+    @FXML
+    Label label_Paragraph3;
 
     UserCollection currentCollection;
-    LinkedList<VBox> itemBoxes;
-    LinkedList<ItemCard> itemCards;
-    HashMap<VBox,ItemCard> itemCardsOfVBoxes;
+    private static LinkedList<VBox> itemBoxes;
+    private static LinkedList<ItemCard> itemCards;
+    private static HashMap<VBox,ItemCard> itemCardsOfVBoxes;
     public void initialize(){
         Image imgPrev = loadImage(URL_PREV_IMAGE);
         imageViewPrevButton.setImage(imgPrev);
@@ -79,6 +84,11 @@ public class Controller {
         fillItems();
         populateitemBoxesList();
         populateChoiceBoxes();
+        itemShowLogic = new ItemShowLogic(label_Paragraph1,label_Paragraph2,label_Paragraph3,b_previous,b_next);
+
+    }
+    public static List <ItemCard> getItemcards(){
+        return itemCards;
     }
     private void populateChoiceBoxes(){
         choiceBox_Uniques.setItems( itemTypes);
@@ -139,32 +149,7 @@ public class Controller {
         itemTypes =ItemData.getInstance().getItemTypes();
         setNames = ItemData.getInstance().getSetNames();
     }
-    private void showItemCards(ItemCategory category){
-        List<Item>  items= category.getCategoryItems();
-        Iterator iterator = items.iterator();
-        int i=0;
-        for ( i = 0; i< itemCards.size();i++){
-            if(iterator.hasNext()){
-                Item item = (Item) iterator.next();
-                itemCards.get(i).setItem(item);
-            }else{
-                break;
-            }
-        }
-        //clear reamining cards
-        while (i < itemCards.size()){
-            itemCards.get(i).clear();
-            i++;
-        }
 
-
-    }
-    private void clearItemCards(){
-        for(ItemCard itemCard : itemCards){
-            itemCard.clear();
-        }
-
-    }
     public void handleExit(){
         Platform.exit();
     }
@@ -186,18 +171,12 @@ public class Controller {
 
     }
 
-    public void pressedNext(ActionEvent actionEvent) {
-    }
-
-    public void pressedPrevious(ActionEvent actionEvent) {
-    }
-
     public void action_UniqueChoice(ActionEvent actionEvent) {
         String selectedItem =choiceBox_Uniques.getSelectionModel().getSelectedItem();
         if(selectedItem != null){
-            clearItemCards();
+            itemShowLogic.clearItemCards();
             ItemCategory category = uniqueItemsByCategory.get(selectedItem);
-            showItemCards(category);
+            itemShowLogic.showItemCards(category);
         }
 
     }
@@ -206,9 +185,9 @@ public class Controller {
         String selectedItem =choiceBox_Sets.getSelectionModel().getSelectedItem();
         if(selectedItem != null){
             System.out.println("selecting");
-            clearItemCards();
+            itemShowLogic.clearItemCards();
             ItemCategory category = setItemsBySets.get(selectedItem);
-            showItemCards(category);
+            itemShowLogic.showItemCards(category);
         }
 
     }

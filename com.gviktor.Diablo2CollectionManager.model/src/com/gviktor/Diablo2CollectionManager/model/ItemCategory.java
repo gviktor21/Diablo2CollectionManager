@@ -9,7 +9,7 @@ public class ItemCategory {
     protected List<Item> categoryItems;
     protected String mainPath;
     protected int numberOfItems;
-    public static enum ItemCategoryLevelType  {DIFFICULTY,UNDEFINED}
+    public enum ItemCategoryLevelType  {DIFFICULTY,UNDEFINED}
     protected ItemCategoryLevelType itemCategoryLevelType;
     public int getNumberOfItems() {
         return numberOfItems;
