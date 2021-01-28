@@ -48,8 +48,8 @@ public class ItemCategory {
         if(this.itemCategoryLevelType == ItemCategoryLevelType.UNDEFINED){
             throw new RuntimeException("Not categorized by difficulty");
         }
-        List<Item> normalItems = new LinkedList<Item>();
-        normalItems = this.categoryItems.stream().filter(item -> item.getCategory().equals(Item.ItemLevel.NORMAL)).collect(Collectors.toList());
+        List<Item> normalItems;
+        normalItems = this.categoryItems.stream().filter(item -> item.getDiff_level().equals(Item.ItemLevel.NORMAL)).collect(Collectors.toList());
         return normalItems;
     }
 
@@ -58,7 +58,7 @@ public class ItemCategory {
             throw new RuntimeException("Not categorized by difficulty");
         }
         List<Item> ExceptionalItems = new LinkedList<Item>();
-        ExceptionalItems = this.categoryItems.stream().filter(item -> item.getCategory().equals(Item.ItemLevel.EXCEPTIONAL)).collect(Collectors.toList());
+        ExceptionalItems = this.categoryItems.stream().filter(item -> item.getDiff_level().equals(Item.ItemLevel.EXCEPTIONAL)).collect(Collectors.toList());
         return ExceptionalItems;
     }
 
@@ -67,7 +67,7 @@ public class ItemCategory {
             throw new RuntimeException("Not categorized by difficulty");
         }
         List<Item> eliteItems = new LinkedList<Item>();
-        eliteItems = this.categoryItems.stream().filter(item -> item.getCategory().equals(Item.ItemLevel.ELITE)).collect(Collectors.toList());
+        eliteItems = this.categoryItems.stream().filter(item -> item.getDiff_level().equals(Item.ItemLevel.ELITE)).collect(Collectors.toList());
         return eliteItems;
     }
     public List<Item> getCategoryItems() {

@@ -24,7 +24,6 @@ public class CategoryOwnedData {
     public void addItem(int itemNumber){
         if(itemNumber > category.getNumberOfItems()||itemNumber < 0){
             //no such an item
-            System.out.println("no Such an item");
         }else{
             ownedItemLocationNumbers.add(itemNumber);
         }

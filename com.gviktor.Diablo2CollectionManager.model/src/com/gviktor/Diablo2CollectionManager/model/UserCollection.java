@@ -2,10 +2,13 @@ package com.gviktor.Diablo2CollectionManager.model;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Locale;
 
 public class UserCollection {
     private HashMap<String,CategoryOwnedData> ownedUniqueCategoryData;
     private HashMap<String,CategoryOwnedData> ownedSetCategoryData;
+    private String collectionName;
+
 
     public HashMap<String, CategoryOwnedData> getOwnedUniqueCategoryData() {
         return ownedUniqueCategoryData;
@@ -31,8 +34,6 @@ public class UserCollection {
         this.collectionName = collectionName;
     }
 
-    private String collectionName;
-
     public UserCollection(String collectionName) {
         this.collectionName = collectionName;
         ownedUniqueCategoryData = new HashMap<String, CategoryOwnedData>();
@@ -43,6 +44,21 @@ public class UserCollection {
     }
     public void addOwnedSetDataCategory(String categoryName, CategoryOwnedData cdata){
         ownedSetCategoryData.put(categoryName,cdata);
+    }
+    private  boolean isUniqueCategoryExists(String categoryName){
+        if(ownedUniqueCategoryData.containsKey(categoryName)){
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+    private boolean isSetCategoryExists(String categoryName){
+        if(ownedSetCategoryData.containsKey(categoryName)){
+            return true;
+        }else{
+            return false;
+        }
     }
     public void printOwnedUniqueItems(){
         Iterator it = ownedUniqueCategoryData.values().iterator();
@@ -70,19 +86,38 @@ public class UserCollection {
         }
         return  sb.toString();
     }
-    private  void addUniqueItem(String categoryName, int itemNumber){
-        CategoryOwnedData itemCategory =ownedUniqueCategoryData.get(categoryName);
-        itemCategory.addItem(itemNumber);
+    public   void addUniqueItem(ItemCategory category, int itemNumber){
+        CategoryOwnedData ownedItemCategory;
+        if(!isUniqueCategoryExists(category.getCategoryName())){
+             ownedItemCategory = new CategoryOwnedData(category);
+             ownedUniqueCategoryData.put(category.getCategoryName(),ownedItemCategory);
+        } else{
+             ownedItemCategory =ownedUniqueCategoryData.get(category.getCategoryName());
+        }
+        ownedItemCategory.addItem(itemNumber);
     }
-    private void removeUniqueItem(String categoryName, int itemNumber){
+    public void removeUniqueItem(ItemCategory category, int itemNumber){
+        removeUniqueItem(category.getCategoryName(),itemNumber);
+    }
+
+    public void removeUniqueItem(String categoryName, int itemNumber){
         CategoryOwnedData itemCategory =ownedUniqueCategoryData.get(categoryName);
         itemCategory.removeItem(itemNumber);
     }
-    private  void addSetItem(String categoryName, int itemNumber){
-        CategoryOwnedData itemCategory =ownedSetCategoryData.get(categoryName);
-        itemCategory.addItem(itemNumber);
+    public  void addSetItem(ItemCategory category, int itemNumber){
+        CategoryOwnedData ownedItemCategory;
+        if(!isSetCategoryExists(category.getCategoryName())){
+            ownedItemCategory = new CategoryOwnedData(category);
+            ownedSetCategoryData.put(category.getCategoryName(),ownedItemCategory);
+        } else{
+            ownedItemCategory =ownedSetCategoryData.get(category.getCategoryName());
+        }
+        ownedItemCategory.addItem(itemNumber);
     }
-    private void removeSetItem(String categoryName, int itemNumber){
+    public void removeSetItem(ItemCategory category, int itemNumber){
+        removeSetItem(category.getCategoryName(),itemNumber);
+    }
+    public void removeSetItem(String categoryName, int itemNumber){
         CategoryOwnedData itemCategory =ownedSetCategoryData.get(categoryName);
         itemCategory.removeItem(itemNumber);
     }

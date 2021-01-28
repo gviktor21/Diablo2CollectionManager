@@ -38,8 +38,6 @@ import static javafx.stage.Modality.*;
 
 public class Controller {
     //Todo Eltüntetni a imageLoadot
-    //todo: Felső rész kitalálása
-    //Todo: Működési logika kitalálása.
     //Todo: Kollecciókezelés
     public static final String URL_PREV_IMAGE="icons/botmenu-prev-ovr.gif";
     public static final String URL_NEXT_IMAGE="icons/botmenu-next-ovr.gif";
@@ -48,6 +46,8 @@ public class Controller {
     private static ObservableList<String> setNames;
     private static HashMap<String, ItemCategory> setItemsBySets;
     private  static  ItemShowLogic itemShowLogic;
+    private UserCollection currentCollection;
+    private static CollectionManager collectionManager;
     @FXML
     Button b_previous;
     @FXML
@@ -69,7 +69,6 @@ public class Controller {
     @FXML
     Label label_Paragraph3;
 
-    UserCollection currentCollection;
     private static LinkedList<VBox> itemBoxes;
     private static LinkedList<ItemCard> itemCards;
     private static HashMap<VBox,ItemCard> itemCardsOfVBoxes;
@@ -85,7 +84,7 @@ public class Controller {
         populateitemBoxesList();
         populateChoiceBoxes();
         itemShowLogic = new ItemShowLogic(label_Paragraph1,label_Paragraph2,label_Paragraph3,b_previous,b_next);
-
+        collectionManager = new CollectionManager(currentCollection);
     }
     public static List <ItemCard> getItemcards(){
         return itemCards;
@@ -161,8 +160,10 @@ public class Controller {
             ItemCard itemCard= itemCardsOfVBoxes.get(vbox);
             if(!itemCard.isSelected()){
                 itemCard.select();
+                collectionManager.select(itemCard.getCurrentItem());
             }else{
                 itemCard.deSelect();
+                collectionManager.deSelect(itemCard.getCurrentItem());
             }
         }
     }
@@ -176,6 +177,8 @@ public class Controller {
         if(selectedItem != null){
             itemShowLogic.clearItemCards();
             ItemCategory category = uniqueItemsByCategory.get(selectedItem);
+            collectionManager.setCurrentCategory(category);
+            collectionManager.setSetCategory(true);
             itemShowLogic.showItemCards(category);
         }
 
@@ -187,6 +190,8 @@ public class Controller {
             System.out.println("selecting");
             itemShowLogic.clearItemCards();
             ItemCategory category = setItemsBySets.get(selectedItem);
+            collectionManager.setCurrentCategory(category);
+            collectionManager.setSetCategory(false);
             itemShowLogic.showItemCards(category);
         }
 

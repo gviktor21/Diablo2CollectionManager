@@ -13,8 +13,12 @@ import java.util.List;
 
 public class ItemShowLogic {
     Label label1,label2,label3;
+    private List<Item> currentItemList;
+    private int currentStartingIndex=0;
+    private static final int NUMBER_OF_ITEM_SHOW = 8;
+    private ItemCategory currentCategory;
     HandleLabelClick handleLabelClick;
-    private int remaining=0;
+
     ItemShowLogic(Label label1, Label label2, Label label3, Button b_previous, Button b_next){
         handleLabelClick = new HandleLabelClick();
         this.label1=label1;
@@ -23,25 +27,30 @@ public class ItemShowLogic {
         label1.setOnMouseClicked(handleLabelClick);
         label2.setOnMouseClicked(handleLabelClick);
         label3.setOnMouseClicked(handleLabelClick);
+        currentCategory=null;
 
         b_previous.setOnAction(new HandlePrevious());
         b_next.setOnAction(new HandleNext());
     }
     public void showItemCards(ItemCategory category){
+        currentCategory=category;
         setHeaders(category);
         if(category.getItemCategoryLevelType() == ItemCategory.ItemCategoryLevelType.DIFFICULTY) {
+            currentItemList =currentCategory.getNormalItems();
+        }else{
+            currentItemList=currentCategory.getCategoryItems();
         }
-
-
-
-
-        List<Item> items= category.getCategoryItems();
-        Iterator iterator = items.iterator();
-        int i=0;
+        currentStartingIndex=0;
+        show();
+    }
+    public void show(){
+        int itemIndex =currentStartingIndex;
+        int i;
         for ( i = 0; i< Controller.getItemcards().size();i++){
-            if(iterator.hasNext()){
-                Item item = (Item) iterator.next();
+            if(currentItemList.size() >itemIndex){
+                Item item = currentItemList.get(itemIndex);
                 Controller.getItemcards().get(i).setItem(item);
+                itemIndex++;
             }else{
                 break;
             }
@@ -79,7 +88,10 @@ public class ItemShowLogic {
         @Override
         public void handle(javafx.event.ActionEvent actionEvent) {
             //todo
-               System.out.println("Next button clicked");
+            if(currentItemList.size() > currentStartingIndex+NUMBER_OF_ITEM_SHOW){
+                currentStartingIndex+=NUMBER_OF_ITEM_SHOW;
+                show();
+            }
         }
     }
 
@@ -92,7 +104,10 @@ public class ItemShowLogic {
         @Override
         public void handle(javafx.event.ActionEvent actionEvent) {
              //todo
-            System.out.println("Previous button clicked");
+            if(currentStartingIndex-NUMBER_OF_ITEM_SHOW>=0){
+                currentStartingIndex-=NUMBER_OF_ITEM_SHOW;
+                show();
+            }
         }
     }
     private class HandleLabelClick implements EventHandler{
@@ -100,13 +115,18 @@ public class ItemShowLogic {
         @Override
         public void handle(Event actionEvent) {
              //todo
-            if (actionEvent.getSource().equals(label1)){
-                System.out.println("label1 clicked");
-            }else if(actionEvent.getSource().equals(label2)){
-                System.out.println("label2 clicked");
-            }else if(actionEvent.getSource().equals(label3)){
-                 System.out.println("label3 clicked");
+            if(currentCategory!= null) {
+                if (actionEvent.getSource().equals(label1)){
+                    currentItemList =currentCategory.getNormalItems();
+                }else if(actionEvent.getSource().equals(label2)){
+                    currentItemList =currentCategory.getExceptionalItems();
+                }else if(actionEvent.getSource().equals(label3)){
+                    currentItemList =currentCategory.getEliteItems();
+                }
+                currentStartingIndex=0;
+                show();
             }
+
 
         }
     }

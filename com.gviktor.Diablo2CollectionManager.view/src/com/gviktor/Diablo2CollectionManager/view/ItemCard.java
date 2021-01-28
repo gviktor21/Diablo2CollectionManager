@@ -21,6 +21,7 @@ public class ItemCard {
     private Label labelItemName;
     private int number;
     private boolean selected;
+    private Item currentItem;
     public  ItemCard(VBox vbox, WebView webView, ImageView view,Label label, int number){
         this.vBox=vbox;
         this.webView = webView;
@@ -58,7 +59,7 @@ public class ItemCard {
         WebEngine webEngine= webView.getEngine();
         labelItemName.setText(item.getName());
         webEngine.load(f.toURI().toString());
-
+        currentItem=item;
     }
     private Image loadImage(String url) {
         Image img = null;
@@ -104,10 +105,19 @@ public class ItemCard {
         this.number = number;
     }
 
+    public Item getCurrentItem() {
+        return currentItem;
+    }
+
+    public void setCurrentItem(Item currentItem) {
+        this.currentItem = currentItem;
+    }
+
     public void clear() {
         imageView.setImage(null);
         webView.getEngine().loadContent("<body style=\"background-color:black; color:white\">");
         labelItemName.setText("");
         deSelect();
+        currentItem=null;
     }
 }

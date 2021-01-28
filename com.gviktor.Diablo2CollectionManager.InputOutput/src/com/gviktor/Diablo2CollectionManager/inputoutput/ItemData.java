@@ -39,6 +39,9 @@ public class ItemData {
         String setItemPath = "data/sets/";
         loadExistingItems(setItemsBySets,Locations.SET_PATH,setItemPath,setNames);
         loadXmls(setItemsBySets);
+        setItemsBySets.forEach((item,category)->{
+            category.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.UNDEFINED);
+        });
         Collections.sort(itemTypes);
         Collections.sort(setNames);
 
@@ -79,13 +82,14 @@ public class ItemData {
                 saxParser.parse(xmlPath.toFile(),handler);
                 List<com.gviktor.Diablo2CollectionManager.model.Item> items=handler.getItemList();
 
-                //check it if it has difficulty property then downcast it
+                //check it if it has difficulty property
                 Item item  =items.get(0);
                 if(!item.getDiff_level().equals(Item.ItemLevel.UNDEFINED)){
                     itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.DIFFICULTY);
                 }else {
                     itemCategory.setItemCategoryLevelType(ItemCategory.ItemCategoryLevelType.UNDEFINED);
                 }
+
                 itemCategory.setCategoryItems(items);
             } catch (SAXException e) {
                 e.printStackTrace();
