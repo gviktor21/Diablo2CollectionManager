@@ -2,7 +2,6 @@ package com.gviktor.Diablo2CollectionManager.view;
 
 import com.gviktor.Diablo2CollectionManager.inputoutput.CollectionLoader;
 import com.gviktor.Diablo2CollectionManager.inputoutput.ItemData;
-import com.gviktor.Diablo2CollectionManager.model.Item;
 import com.gviktor.Diablo2CollectionManager.model.ItemCategory;
 import com.gviktor.Diablo2CollectionManager.model.UserCollection;
 import javafx.application.Platform;
@@ -23,14 +22,12 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.web.WebView;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -83,6 +80,7 @@ public class Controller {
         fillItems();
         populateitemBoxesList();
         populateChoiceBoxes();
+        currentCollection=new UserCollection("DefaultCol");
         itemShowLogic = new ItemShowLogic(label_Paragraph1,label_Paragraph2,label_Paragraph3,b_previous,b_next);
         collectionManager = new CollectionManager(currentCollection);
     }
@@ -160,6 +158,8 @@ public class Controller {
             ItemCard itemCard= itemCardsOfVBoxes.get(vbox);
             if(!itemCard.isSelected()){
                 itemCard.select();
+                System.out.println(itemCard.getCurrentItem());
+                System.out.println(collectionManager.getCurrentCategory());
                 collectionManager.select(itemCard.getCurrentItem());
             }else{
                 itemCard.deSelect();
@@ -177,9 +177,9 @@ public class Controller {
         if(selectedItem != null){
             itemShowLogic.clearItemCards();
             ItemCategory category = uniqueItemsByCategory.get(selectedItem);
+            itemShowLogic.showItemCards(category);
             collectionManager.setCurrentCategory(category);
             collectionManager.setSetCategory(true);
-            itemShowLogic.showItemCards(category);
         }
 
     }
@@ -190,9 +190,9 @@ public class Controller {
             System.out.println("selecting");
             itemShowLogic.clearItemCards();
             ItemCategory category = setItemsBySets.get(selectedItem);
+            itemShowLogic.showItemCards(category);
             collectionManager.setCurrentCategory(category);
             collectionManager.setSetCategory(false);
-            itemShowLogic.showItemCards(category);
         }
 
     }

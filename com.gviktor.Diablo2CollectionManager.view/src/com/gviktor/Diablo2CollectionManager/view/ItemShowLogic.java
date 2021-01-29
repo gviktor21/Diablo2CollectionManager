@@ -90,6 +90,7 @@ public class ItemShowLogic {
             //todo
             if(currentItemList.size() > currentStartingIndex+NUMBER_OF_ITEM_SHOW){
                 currentStartingIndex+=NUMBER_OF_ITEM_SHOW;
+                clearItemCards();
                 show();
             }
         }
@@ -106,6 +107,7 @@ public class ItemShowLogic {
              //todo
             if(currentStartingIndex-NUMBER_OF_ITEM_SHOW>=0){
                 currentStartingIndex-=NUMBER_OF_ITEM_SHOW;
+                clearItemCards();
                 show();
             }
         }
@@ -120,10 +122,11 @@ public class ItemShowLogic {
                     currentItemList =currentCategory.getNormalItems();
                 }else if(actionEvent.getSource().equals(label2)){
                     currentItemList =currentCategory.getExceptionalItems();
-                }else if(actionEvent.getSource().equals(label3)){
-                    currentItemList =currentCategory.getEliteItems();
-                }
-                currentStartingIndex=0;
+            }else if(actionEvent.getSource().equals(label3)){
+                currentItemList =currentCategory.getEliteItems();
+            }
+            currentStartingIndex=0;
+                clearItemCards();
                 show();
             }
 

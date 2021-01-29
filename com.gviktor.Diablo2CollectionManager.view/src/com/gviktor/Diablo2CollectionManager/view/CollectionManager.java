@@ -7,7 +7,7 @@ import com.gviktor.Diablo2CollectionManager.model.UserCollection;
 
 public class CollectionManager {
     private UserCollection currentCollection;
-    private ItemCategory currentcategory;
+    private ItemCategory currentCategory;
     boolean isSetCategory;
 
     public CollectionManager(UserCollection currentCollection) {
@@ -15,12 +15,12 @@ public class CollectionManager {
         isSetCategory=false;
     }
 
-    public ItemCategory getCurrentcategory() {
-        return currentcategory;
+    public ItemCategory getCurrentCategory() {
+        return currentCategory;
     }
 
-    public void setCurrentcategory(ItemCategory currentcategory) {
-        this.currentcategory = currentcategory;
+    public void setCurrentCategory(ItemCategory currentCategory) {
+        this.currentCategory = currentCategory;
     }
 
     public UserCollection getCurrentCollection() {
@@ -35,26 +35,23 @@ public class CollectionManager {
         isSetCategory = setCategory;
     }
 
-    public void setCurrentCategory(ItemCategory category) {
-    }
-
     public void select(Item currentItem) {
         if(currentItem != null){
-            int index = currentcategory.getCategoryItems().indexOf(currentItem);
+            int index = currentCategory.getCategoryItems().indexOf(currentItem);
             if(isSetCategory){
-                currentCollection.addSetItem(currentcategory,index);
+                currentCollection.addSetItem(currentCategory,index);
             }else{
-                currentCollection.addUniqueItem(currentcategory,index);
+                currentCollection.addUniqueItem(currentCategory,index);
             }
         }
     }
 
     public void deSelect(Item currentItem) {
-        int index = currentcategory.getCategoryItems().indexOf(currentItem);
+        int index = currentCategory.getCategoryItems().indexOf(currentItem);
         if(isSetCategory){
-            currentCollection.removeSetItem(currentcategory,index);
+            currentCollection.removeSetItem(currentCategory,index);
         }else{
-            currentCollection.removeUniqueItem(currentcategory,index);
+            currentCollection.removeUniqueItem(currentCategory,index);
         }
 
     }
