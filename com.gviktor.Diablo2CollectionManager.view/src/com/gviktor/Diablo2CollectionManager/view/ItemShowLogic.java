@@ -50,6 +50,9 @@ public class ItemShowLogic {
             if(currentItemList.size() >itemIndex){
                 Item item = currentItemList.get(itemIndex);
                 Controller.getItemcards().get(i).setItem(item);
+                if(CollectionManager.getCollectionManager().collectionContainItem(item)){
+                    Controller.getItemcards().get(i).select();
+                }
                 itemIndex++;
             }else{
                 break;

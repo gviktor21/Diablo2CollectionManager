@@ -31,6 +31,9 @@ public class CategoryOwnedData {
     public void removeItem(int itemNumber){
         ownedItemLocationNumbers.remove(itemNumber);
     }
+    public boolean hasItem(int itemIndex){
+        return ownedItemLocationNumbers.contains(itemIndex);
+    }
 
     @Override
     public String toString() {

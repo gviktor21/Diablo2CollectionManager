@@ -16,17 +16,25 @@
             <graphic>
                 <ImageView  fx:id="bView_add"></ImageView>
             </graphic>
+            <tooltip>
+                <Tooltip text="Create a new Collection"/>
+            </tooltip>
         </Button>
         <Button onAction="#handleOpen" text="">
             <graphic>
                 <ImageView fx:id="bView_open"></ImageView>
             </graphic>
+            <tooltip>
+                <Tooltip text="Open selected collection"/>
+            </tooltip>
         </Button>
          <Button onAction="#handleDelete" text="">
              <graphic>
                  <ImageView fx:id="bView_delete"></ImageView>
              </graphic>
-
+             <tooltip>
+                 <Tooltip text="Delete selected collection"/>
+             </tooltip>
          </Button>
     </ToolBar>
     <ListView onMouseClicked="#onListClicked" GridPane.columnIndex="0" GridPane.rowIndex="1" fx:id="collectionList"></ListView>

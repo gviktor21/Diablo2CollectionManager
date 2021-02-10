@@ -66,6 +66,16 @@ public class UserCollection {
             System.out.println(it.next());
         }
     }
+    public boolean hasItem(ItemCategory category,int itemIndex){
+        if(isSetCategoryExists(category.getCategoryName())){
+            CategoryOwnedData ownedItemCategory =ownedSetCategoryData.get(category.getCategoryName());
+            return ownedItemCategory.hasItem(itemIndex);
+        }else if(isUniqueCategoryExists(category.getCategoryName() )){
+            CategoryOwnedData ownedItemCategory =ownedUniqueCategoryData.get(category.getCategoryName());
+            return ownedItemCategory.hasItem(itemIndex);
+        }
+        return false;
+    }
     public String getOwnedUniqueItemString(){
         Iterator iterator=ownedUniqueCategoryData.values().iterator();
         StringBuilder sb = new StringBuilder();

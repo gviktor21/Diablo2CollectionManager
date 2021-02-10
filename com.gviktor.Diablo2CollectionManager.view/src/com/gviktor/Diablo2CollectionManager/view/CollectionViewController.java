@@ -45,23 +45,24 @@ public class CollectionViewController {
     public void handleDelete(){
         String selected = collectionList.getSelectionModel().getSelectedItem();
         if(selected != null){
-            //show a comfirmation window
+            //todo show a comfirmation window
             //if yes execute the deletion
         }
     }
     public void handleAdd(){
         String collectionName;
-        //get a collectionName from user
+        //todo get a collectionName from user
 
-        //check if this name is still exist
-        //add an empty collection and select it as a current collection
+        //todo check if this name is still exist
+        //todo add an empty collection and select it as a current collection and exit window
     }
     public void onListClicked(MouseEvent mouseEvent) {
         if (mouseEvent.getButton().equals(MouseButton.PRIMARY)) {
             if (mouseEvent.getClickCount() == 2) {
                 String selected = collectionList.getSelectionModel().getSelectedItem();
                 if(selected != null){
-
+                    //open collection and close this window
+                    openCollection();
                 }
             }
         }
@@ -71,10 +72,21 @@ public class CollectionViewController {
         String selected = collectionList.getSelectionModel().getSelectedItem();
         if(selected != null){
             //open collection and close this window
-            Stage stage = (Stage) ((Button)actionEvent.getSource()).getScene().getWindow();
-            stage.close();
+            openCollection();
         }else {
-            //show user a dialog that he/she not selected a thing
+            // todo show user a dialog that he/she not selected a thing
         }
+    }
+    private  void openCollection(){
+            try {
+                UserCollection collection = loadCollection();
+                CollectionManager.getCollectionManager().setCurrentCollection(collection);
+                Stage stage = (Stage) collectionList.getScene().getWindow();
+                stage.close();
+            }catch(FileNotFoundException fnfe){
+                //todo write error to user
+
+            }
+
     }
 }

@@ -1,7 +1,8 @@
 name: DemoCollection
 UNIQUES
+Charms: 0, 1 
+Armors: 9 
 Gloves: 6 
 Swords: 3, 10, 21 
+Jewels: 0, 1, 6 
 SETS
-Arcanna's Tricks: 1, 3 
-Angelic Raiment: 1, 3 

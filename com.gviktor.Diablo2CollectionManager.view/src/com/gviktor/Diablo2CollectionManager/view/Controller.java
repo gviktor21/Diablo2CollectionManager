@@ -68,6 +68,8 @@ public class Controller {
     Label label_Paragraph2;
     @FXML
     Label label_Paragraph3;
+    @FXML
+    Label label_Collection;
 
     private static LinkedList<VBox> itemBoxes;
     private static LinkedList<ItemCard> itemCards;
@@ -84,7 +86,9 @@ public class Controller {
         populateitemBoxesList();
         populateChoiceBoxes();
         itemShowLogic = new ItemShowLogic(label_Paragraph1,label_Paragraph2,label_Paragraph3,b_previous,b_next);
-        collectionManager = new CollectionManager(currentCollection);
+        currentCollection = new UserCollection("Default");
+        collectionManager = CollectionManager.getCollectionManager();
+        collectionManager.setDefault(currentCollection,label_Collection);
     }
     public static List <ItemCard> getItemcards(){
         return itemCards;
@@ -178,7 +182,7 @@ public class Controller {
             itemShowLogic.clearItemCards();
             ItemCategory category = uniqueItemsByCategory.get(selectedItem);
             collectionManager.setCurrentCategory(category);
-            collectionManager.setSetCategory(true);
+            collectionManager.setSetCategory(false);
             itemShowLogic.showItemCards(category);
         }
 
@@ -191,7 +195,7 @@ public class Controller {
             itemShowLogic.clearItemCards();
             ItemCategory category = setItemsBySets.get(selectedItem);
             collectionManager.setCurrentCategory(category);
-            collectionManager.setSetCategory(false);
+            collectionManager.setSetCategory(true);
             itemShowLogic.showItemCards(category);
         }
 
@@ -215,5 +219,10 @@ public class Controller {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void handleSaveCollection(ActionEvent actionEvent) {
+        CollectionLoader loader = new CollectionLoader();
+        loader.writeCollection(CollectionManager.getCollectionManager().getCurrentCollection());
     }
 }

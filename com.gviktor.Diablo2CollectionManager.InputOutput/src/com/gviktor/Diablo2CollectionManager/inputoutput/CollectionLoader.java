@@ -71,7 +71,7 @@ public class CollectionLoader {
             if (lastIndexOfPoint <= 0) {
                 throw new RuntimeException();
             }
-            name = name.substring(lastIndexOfPoint, name.length()).trim();
+            name = name.substring(lastIndexOfPoint+1, name.length()).trim();
             userCollection = new UserCollection(name);
             String line;
             //LOAD COLLECTION UNIQUES, SETS

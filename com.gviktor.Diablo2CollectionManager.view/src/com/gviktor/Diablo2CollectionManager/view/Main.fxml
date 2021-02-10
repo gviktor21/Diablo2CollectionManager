@@ -88,6 +88,7 @@
                    <Menu mnemonicParsing="false" text="File">
                        <items>
                            <MenuItem  mnemonicParsing="false" onAction="#handleCollection" text="Collections"  ></MenuItem>
+                           <MenuItem onAction="#handleSaveCollection" text="Save" > </MenuItem>
                            <MenuItem mnemonicParsing="false"  onAction="#handleExit" text="exit" />
                        </items>
                    </Menu>
@@ -105,10 +106,14 @@
                <Label id="setLabel" text="Sets" />
                <ChoiceBox id="choiceBox_Sets" fx:id="choiceBox_Sets" onAction="#action_SetChoice" prefWidth="150.0" />
            </HBox>
+
            <HBox BorderPane.alignment="CENTER" alignment="CENTER" spacing="20" >
-               <Label fx:id="label_Paragraph1" text="df" />
-               <Label fx:id="label_Paragraph2" text="sdf" />
-               <Label fx:id="label_Paragraph3" text="sdf" />
+           <Label fx:id="label_Collection" text="" />
+           </HBox>
+           <HBox BorderPane.alignment="CENTER" alignment="CENTER" spacing="20" >
+               <Label fx:id="label_Paragraph1" text="" />
+               <Label fx:id="label_Paragraph2" text="" />
+               <Label fx:id="label_Paragraph3" text="" />
                <padding>
                    <Insets top="0" right="5" bottom="10" left="0" />
                </padding>
