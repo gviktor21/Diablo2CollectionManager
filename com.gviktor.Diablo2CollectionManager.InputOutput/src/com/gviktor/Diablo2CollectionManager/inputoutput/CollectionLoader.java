@@ -59,7 +59,10 @@ public class CollectionLoader {
         }
 
     }
-
+    public  void deleteCollection(String name) throws IOException {
+        Path path = FileSystems.getDefault().getPath(Locations.COLLECTION_PATH + name+ ".dat");
+        Files.delete(path);
+    }
     public  static  UserCollection loadCollection(String path) throws FileNotFoundException {
         Path path1 = FileSystems.getDefault().getPath(Locations.COLLECTION_PATH + path + ".dat");
         File file = path1.toFile();
