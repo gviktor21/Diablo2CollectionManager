@@ -66,7 +66,7 @@ public class ItemShowLogic {
     }
     private void setHeaders(ItemCategory category){
         if(category.getItemCategoryLevelType() == ItemCategory.ItemCategoryLevelType.DIFFICULTY){
-            label1.setText("Norlmal");
+            label1.setText("Normal");
             label2.setText("Exceptional");
             label3.setText("Elite");
         }else{
