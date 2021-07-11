@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Milabrega's Diadem" type="Crown" imgsrc="milabregasdiadem.gif" />
+	<item name="Milabrega's Robe" type="Ancient Armor" imgsrc="milabregasrobe.gif" />
+	<item name="Milabrega's Orb" type="Kite Shield" imgsrc="milabregasorb.gif" />
+	<item name="Milabrega's Rod" type="War Scepter" imgsrc="warscepter.gif" />
+
+</normal>
+
+</gloves>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Death's Touch" type="War Sword" imgsrc="deathstouch.gif" />
+	<item name="Death's Hand" type="Leather Gloves" imgsrc="deathshand.gif" />
+	<item name="Death's Guard" type="Sash" imgsrc="deathstouch.gif" />
+
+</normal>
+
+</gloves>

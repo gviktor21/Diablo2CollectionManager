@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GriswoldsLegacy>
+<normal>
+
+	<item name="Griswold's Heart" type="Ornate Plate" imgsrc="griswoldsheart.gif" />
+	<item name="Griswold's Valor" type="Corona" imgsrc="griswoldsvalor.gif" />
+	<item name="Griswold's Redemption" type="Caduceus" imgsrc="griswoldsredemption.gif" />
+	<item name="Griswold's Honor" type="Vortex Shield" imgsrc="griswoldshonor.gif" />
+
+</normal>
+
+</GriswoldsLegacy>

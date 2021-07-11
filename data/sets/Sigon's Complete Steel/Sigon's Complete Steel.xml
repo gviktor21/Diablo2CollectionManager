@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Sigon's Visor" type="Great Helm" imgsrc="sigonsvisor.gif" />
+	<item name="Sigon's Shelter" type="Gothic Plate" imgsrc="sigonsshelter.gif" />
+	<item name="Sigon's Sabot" type="Greaves" imgsrc="sigonsgreaves.gif" />
+	<item name="Sigon's Guard" type="Tower Shield" imgsrc="sigonsguard.gif" />
+	<item name="Sigon's Wrap" type="Plated Belt" imgsrc="sigonswrap.gif" />
+	<item name="Sigon's Gage" type="Gauntlets" imgsrc="sigonsgauntlets.gif" />
+
+</normal>
+
+</gloves>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Isenhart's Lightbrand" type="Broad Sword" imgsrc="isenhartslightbrand.gif" />
+	<item name="Isenhart's Horns" type="Full Helm" imgsrc="isenhartshorns.gif" />
+	<item name="Isenhart's Case" type="Breast Plate" imgsrc="isenhartscase.gif" />
+	<item name="Isenhart's Parry" type="Gothic Shield" imgsrc="isenhartsparry.gif" />
+
+</normal>
+</gloves>

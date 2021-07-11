@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Cleglaw's Tooth" type="Long Sword" imgsrc="cleglawstooth.gif" />
+	<item name="Cleglaw's Pincers" type="Chain Gloves" imgsrc="cleglawspincers.gif" />
+	<item name="Cleglaw's Claw" type="Small Shield" imgsrc="cleglawsclaw.gif" />
+
+</normal>
+</gloves>

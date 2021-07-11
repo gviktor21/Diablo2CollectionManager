@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefHeight="100.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.gviktor.Diablo2CollectionManager.view.AddDialogController">
+    <headerText>Create new Collection</headerText>
+    <content>
+        <GridPane hgap="5" vgap="5">
+            <HBox  GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <children>
+                  <Label  text="Collection Name: " />
+                  <TextField fx:id="text_newCollectionName" />
+               </children>
+            </HBox>
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="1" prefHeight="100.0" prefWidth="200.0" />
+<!--            <Button mnemonicParsing="false" text="Ok"  />-->
+<!--            <Button mnemonicParsing="false" text="Cancel" />-->
+       </GridPane>
+    </content>
+</DialogPane>

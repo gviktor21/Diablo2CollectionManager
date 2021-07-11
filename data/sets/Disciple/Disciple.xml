@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<disciple>
+<normal>
+
+	<item name="Telling of Beads" type="Amulet" imgsrc="amu2.gif" />
+	<item name="Laying of Hands" type="Bramble Mitts" imgsrc="layingofhands.gif" />
+	<item name="Dark Adherent" type="Dusk Shroud" imgsrc="darkadherent.gif" />
+	<item name="Rite of Passage" type="Demonhide Boots" imgsrc="riteofpassage.gif" />
+	<item name="Credendum" type="Mithril Coil" imgsrc="credendum.gif" />
+
+</normal>
+
+</disciple>

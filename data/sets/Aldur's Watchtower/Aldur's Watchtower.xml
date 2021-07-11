@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AldursWatchtower>
+<normal>
+
+	<item name="Aldur's Stony Gaze" type="Hunter's Guise" imgsrc="aldursstoneygaze.gif" />
+	<item name="Aldur's Advance" type="Battle Boots" imgsrc="aldursadvance.gif" />
+	<item name="Aldur's Deception" type="Shadow Plate" imgsrc="aldursdeception.gif" />
+	<item name="Aldur's Rhythm" type="Jagged Star" imgsrc="aldursrythm.gif" />
+
+</normal>
+
+</AldursWatchtower>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Cow King's Horns" type="War Hat" imgsrc="cap.gif" />
+	<item name="Cow King's Hide" type="Studded Leather" imgsrc="studdedleather.gif" />
+	<item name="Cow King's Hooves" type="Heavy Boots" imgsrc="heavyboots.gif" />
+
+</normal>
+
+</gloves>

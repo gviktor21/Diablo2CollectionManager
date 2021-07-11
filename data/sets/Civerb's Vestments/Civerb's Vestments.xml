@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Civerb's Cudgel" type="Grand Scepter" imgsrc="grandscepter.gif" />
+	<item name="Civerb's Icon" type="Amulet" imgsrc="amu1.gif" />
+	<item name="Civerb's Ward" type="Large Shield" imgsrc="civerbsward.gif" />
+
+</normal>
+</gloves>

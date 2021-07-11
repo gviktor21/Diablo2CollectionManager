@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Tancred's Skull" type="Bone Helm" imgsrc="tancredsskull.gif" />
+	<item name="Tancred's Spine" type="Full Plate Mail" imgsrc="tancredsspine.gif" />
+	<item name="Tancred's Hobnails" type="Boots" imgsrc="tancredshobnails.gif" />
+	<item name="Tancred's Crowbill" type="Military Pick" imgsrc="tancredscrowbill.gif" />
+	<item name="Tancred's Weird" type="Amulet" imgsrc="amu3.gif" />
+
+</normal>
+
+</gloves>

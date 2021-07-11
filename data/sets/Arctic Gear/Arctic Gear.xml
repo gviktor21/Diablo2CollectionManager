@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Arctic Furs" type="Quilted Armor" imgsrc="arcticfurs.gif" />
+	<item name="Arctic Binding" type="Light Belt" imgsrc="arcticbinding.gif" />
+	<item name="Arctic Mitts" type="Light Gauntlets" imgsrc="arcticmitts.gif" />
+	<item name="Arctic Horn" type="Short War Bow" imgsrc="arctichorn.gif" />
+
+</normal>
+</gloves>

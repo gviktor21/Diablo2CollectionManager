@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Berserker's Headgear
+" type="Helm" imgsrc="berserkerheadgear.gif" />
+	<item name="Berserker's Hauberk" type="Splint Mail" imgsrc="berserkerhauberk.gif" />
+	<item name="Berserker's Hatchet" type="Double Axe" imgsrc="berserkerhatchet.gif" />
+
+</normal>
+</gloves>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Infernal Cranium" type="Cap" imgsrc="infernalcranium.gif" />
+	<item name="Infernal Sign" type="Heavy Belt" imgsrc="infernalbuckle.gif" />
+	<item name="Infernal Torch" type="Grim Wand" imgsrc="grimwand.gif" />
+
+</normal>
+
+</gloves>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Iratha's Coil" type="Crown" imgsrc="irathascoil.gif" />
+	<item name="Iratha's Collar" type="Amulet" imgsrc="amu1.gif" />
+	<item name="Iratha's Cord" type="Heavy Belt" imgsrc="irathascord.gif" />
+	<item name="Iratha's Cuff" type="Light Gauntlets" imgsrc="irathascuff.gif" />
+
+</normal>
+
+</gloves>

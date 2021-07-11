@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<HeavensBrethren>
+<normal>
+
+	<item name="Haemosu's Adamant" type="Cuirass" imgsrc="haemosusadament.gif" />
+	<item name="Dangoon's Teaching" type="Reinforced Mace" imgsrc="dangoonsteaching.gif" />
+	<item name="Taebaek's Glory" type="Ward" imgsrc="taebaeksglory.gif" />
+	<item name="Ondal's Almighty" type="Spired Helm" imgsrc="ondalsalmighty.gif" />
+
+</normal>
+
+</HeavensBrethren>

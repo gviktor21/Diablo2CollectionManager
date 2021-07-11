@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Vidala's Barb" type="Long Battle Bow" imgsrc="vidalasbarb.gif" />
+	<item name="Vidala's Ambush" type="Leather Armor" imgsrc="vidalasambush.gif" />
+	<item name="Vidala's Fetlock" type="Light Plated Boots" imgsrc="vidalasfetlock.gif" />
+	<item name="Vidala's Snare" type="Amulet" imgsrc="amu2.gif" />
+
+</normal>
+
+</gloves>

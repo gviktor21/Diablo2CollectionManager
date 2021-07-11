@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Cathan's Visage" type="Mask" imgsrc="mask.gif" />
+	<item name="Cathan's Mesh" type="Chain Mail" imgsrc="cathansmesh.gif" />
+	<item name="Cathan's Rule" type="Battle Staff" imgsrc="cathansrule.gif" />
+	<item name="Cathan's Sigil" type="Amulet" imgsrc="amu1.gif" />
+	<item name="Cathan's Seal" type="Ring" imgsrc="ring4.gif" />
+
+</normal>
+</gloves>

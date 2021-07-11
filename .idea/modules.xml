@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Diablo2CollectionManager.iml" filepath="$PROJECT_DIR$/.idea/Diablo2CollectionManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.gviktor.Diablo2CollectionManager.InputOutput/com.gviktor.Diablo2CollectionManager.InputOutput.iml" filepath="$PROJECT_DIR$/com.gviktor.Diablo2CollectionManager.InputOutput/com.gviktor.Diablo2CollectionManager.InputOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.gviktor.Diablo2CollectionManager.model/com.gviktor.Diablo2CollectionManager.model.iml" filepath="$PROJECT_DIR$/com.gviktor.Diablo2CollectionManager.model/com.gviktor.Diablo2CollectionManager.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.gviktor.Diablo2CollectionManager.view/com.gviktor.Diablo2CollectionManager.view.iml" filepath="$PROJECT_DIR$/com.gviktor.Diablo2CollectionManager.view/com.gviktor.Diablo2CollectionManager.view.iml" />
+    </modules>
+  </component>
+</project>

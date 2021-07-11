@@ -54,6 +54,7 @@ public class ItemData {
             while ( (line=reader.readLine()) != null) {
                 String[] itemtypes=line.split(",");
                 for (String i : itemtypes){
+                    System.out.println(i+"item");
                     i=i.trim();
                     typeList.add(i);
                     String itempath =itemPath+i.toLowerCase()+"/";

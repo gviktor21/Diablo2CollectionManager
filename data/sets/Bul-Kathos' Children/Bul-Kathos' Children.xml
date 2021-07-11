@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BulKathosChildren>
+<normal>
+
+	<item name="Bul-Kathos' Sacred Charge" type="Colossus Blade" imgsrc="bulkathossacredcharge.gif" />
+	<item name="Bul-Kathos' Tribal Guardian" type="Mythical Sword" imgsrc="bulkathostribalguardian.gif" />
+	
+</normal>
+
+</BulKathosChildren>

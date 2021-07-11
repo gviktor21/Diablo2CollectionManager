@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gloves>
+<normal>
+
+	<item name="Hsarus' Iron Fist" type="Buckler" imgsrc="hsarusironfist.gif" />
+	<item name="Hsarus' Iron Stay" type="Belt" imgsrc="hsarusironstay.gif" />
+	<item name="Hsarus' Iron Heel" type="Chain Boots" imgsrc="hsarusironwheel.gif" />
+
+</normal>
+
+</gloves>
